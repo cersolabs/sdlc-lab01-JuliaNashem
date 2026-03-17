@@ -90,13 +90,14 @@ Complete la siguiente tabla.
 | Incremental | Parecido al modelo anterior. Se va construyendo el sistema en partes entregando versiones funcionales sucesivamente. | Conviene usarlo en proyectos medianos que pueden requerir algunos cambios en el proceso|
 | Prototipos  | Se construye un prototipo para probar un algoritmo o funcionalidad. No se busca que pueda utilizarse y una vez aprobado este se desecha para empezar la construccion real. | Conviene usarlo cuando el cliente no tiene en claro lo que necesita o su sistema posee mucha interaccion con el usuario. |
 | Espiral     |Es parecido al modelo incremental con diferentes versiones con la particularidad que agrega la etapa de analisis de riesgo en la que se analiza la viabilidad del proyecto y se da la posibilidad de abortarlo en caso de no verle viabilidad |Conviene usarlo en proyectos grandes y complejos donde los riesgos pueden ser claves.|
-| RAD         |                          |                        |
+| RAD         |           Se usan multiples herramientas automatizadas, componentes reutilizables, herramientas de prueba y herramientas colaborativas               |          Para proyectos medianos de gran rapidez en la que el cliente no sepa del todo bien lo que quiere              |
 
 
 - Responder:
   - ¿Qué modelo es más adecuado cuando existen muchos riesgos en el proyecto?
+  Rta: El modelo espiral es el correcto puesto que tiene una etapa de evaluacion de riesgo
   - ¿Qué modelo ayuda a comprender mejor los requerimientos del usuario?
-    
+  Rta: El modelo de prototipo puesto que crea una version no funcional para que el cliente desarrolle lo que necesita.
 ### Actividad 5 – Caso práctico
 Una empresa quiere desarrollar un sistema de ventas para un pequeño comercio.
 
@@ -110,13 +111,18 @@ Una empresa quiere desarrollar un sistema de ventas para un pequeño comercio.
 
 - ¿Qué modelo de desarrollo recomendaría? 
 
-  R: 
+  R: Modelo lineal-secuencial
 - Justifique su respuesta.
 
-  R:
+  R: Porque es apto para proyectos pequeños en los que el cliente sabe lo que quiere y no tiene gran complejidad, a su vex es mas barato y rapido en comparacion a otros modelos.
 - ¿Qué etapas principales tendría el desarrollo?
 
   R:
+  - Ingeniera de requerimiento
+  - Diseño
+  - Codificacion
+  - Prueba
+  - Despliegue
 
 ### Actividad 7 – Verdadero o Falso
 Indique si las siguientes afirmaciones son Verdaderas (V) o Falsas (F). ***marcar con x la verdaderas, dejar en blanco las falsas***
@@ -124,5 +130,5 @@ Indique si las siguientes afirmaciones son Verdaderas (V) o Falsas (F). ***marca
 1. [ ] El modelo en cascada permite cambios constantes en los requerimientos.
 2. [x] El modelo incremental entrega el sistema en varias versiones.
 3. [x] Un prototipo se utiliza para comprender mejor los requerimientos.
-4. [ ] El modelo RAD busca reducir los tiempos de desarrollo.
-5. [ ] El modelo en espiral incorpora el análisis de riesgos.
+4. [x] El modelo RAD busca reducir los tiempos de desarrollo.
+5. [x] El modelo en espiral incorpora el análisis de riesgos.
